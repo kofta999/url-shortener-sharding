@@ -1,0 +1,19 @@
+{
+  "name": "url-shortener-sql",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/hashring": "^3.2.5",
+    "@types/pg": "^8.11.10"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "consistent-hash": "^1.2.2",
+    "hashring": "^3.2.0",
+    "hono": "^4.6.10",
+    "pg": "^8.13.1"
+  }
+}
